@@ -3,9 +3,21 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "axios": "^0.18.0",
+    "normalize.css": "^8.0.0",
     "react": "^16.4.1",
+    "react-addons-update": "^15.6.2",
     "react-dom": "^16.4.1",
+    "react-router-dom": "^4.3.1",
     "react-scripts": "1.1.4"
+  },
+  "homepage": ".",
+  "proxy": {
+    "/blog/api/*": {
+      "target": "http://localhost:3010",
+      "changeOrigin": true,
+      "secure": "false"
+    }
   },
   "scripts": {
     "start": "react-scripts start",

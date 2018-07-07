@@ -1,0 +1,25 @@
+.article {
+    width: 75%;
+    min-width: 640px;
+    max-width: 1160px;
+    padding: 5% 8% 5%;
+    box-sizing: border-box;
+    margin: 0px auto;
+    background: #fff;
+}
+.article .article-title {
+    padding: 15px 0;
+    border-bottom: 1px solid whitesmoke;
+    color: #414a51;
+    font-size: 2em;
+    margin-bottom: 15px;
+    line-height: 1.1;
+}
+.article .article-body {
+    color: #414a51;
+    line-height: 2.3;
+    font-size: 16px;
+    letter-spacing: 0;
+    font-family: Inconsolata, Arial, Helvetica, Geneva, sans-serif;
+}
+

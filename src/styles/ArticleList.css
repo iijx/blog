@@ -1,0 +1,45 @@
+/*
+
+color-1: #e6fdff;
+color-2: #a3f4ff;
+color-3: #74dff2;
+color-4: #49c9e6;
+color-5: #23b1d9;
+color-6: #0099cc;
+color-7: #0077a6;
+color-8: #005780;
+color-9: #003a59;
+
+*/
+.article-list {
+    border-top: 1px dashed whitesmoke;
+    border-bottom: 1px dashed whitesmoke;
+    
+    margin: 30px auto 0;
+    background: #fff;
+    font-family: Inconsolata, Arial, Helvetica, Geneva, sans-serif;
+    
+}
+.article-list .item {
+    line-height: 2.8;
+    text-indent: 1em;
+    letter-spacing: 1px;
+    font-size: 18px;
+    display: block;
+    border-bottom: 1px dashed whitesmoke;
+    color: #333;
+    cursor: pointer;
+}
+.article-list .item:hover {
+    border-bottom-color: transparent;
+    color: #ea4c89;
+    border-left: 2px solid #ea4c89;
+}
+.article-list .item:last-child {
+    border-bottom: 0;
+}
+.article-list .item.no-more {
+    color: #999;
+    cursor: default;
+    border-left: none;
+}

@@ -1,0 +1,22 @@
+
+.category {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+}
+.category .item {
+    padding: 10px 0 5px;
+    flex: 1;
+    text-align: center;
+    cursor: pointer;
+}
+.category .item:hover {
+    color: #fafafa;
+    background: #23b1d9;
+}
+.category .item.selected {
+    color: #056495;
+    color: #e8e8e8;
+    background: #0077a6;
+    /* background: #ea4c89; */
+}

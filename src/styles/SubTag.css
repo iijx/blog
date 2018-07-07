@@ -1,0 +1,21 @@
+
+.tags {
+    display: flex;
+    height: 30px;
+    
+}
+
+.tags .item {
+    padding: 0px 10px;
+    cursor: pointer;
+    line-height: 30px;
+    margin: 0 10px;
+    letter-spacing: 2px;
+    border: 1px dashed currentColor;
+    border-radius: 10px;
+    font-size: 14px;
+    text-align: center;
+}
+.tags .item.selected {
+    background: yellowgreen;
+}
